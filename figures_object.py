@@ -64,7 +64,7 @@ class Circle(Shape):
 class Rectangle(Shape):
     def __init__(self, calculator):
         super().__init__(calculator)
-        self.side_a = float(input(f"Enter dimension of side_B of the {self}: "))
+        self.side_a = float(input(f"Enter dimension of side_A of the {self}: "))
         self.side_b = float(input(f"Enter dimension of side_B of the {self}: "))
         self.area = self.calculator.area_calculator(self)
         self.perimeter = self.calculator.perimeter_calculator(self)
